@@ -12,6 +12,9 @@
 		EF7998051E1E2DD000AF4CE7 /* AdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF7998031E1E2DD000AF4CE7 /* AdViewController.m */; };
 		EF7998061E1E2DED00AF4CE7 /* AdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF7998041E1E2DD000AF4CE7 /* AdViewController.xib */; };
 		EF7998071E1E2EB400AF4CE7 /* AdViewController.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = EF7998021E1E2DD000AF4CE7 /* AdViewController.h */; };
+		EF7998451E1E6B2900AF4CE7 /* BViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF7998431E1E6B2900AF4CE7 /* BViewController.m */; };
+		EF7998461E1E6B3600AF4CE7 /* BViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF7998441E1E6B2900AF4CE7 /* BViewController.xib */; };
+		EF7998471E1E6B4D00AF4CE7 /* BViewController.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = EF7998421E1E6B2900AF4CE7 /* BViewController.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -21,6 +24,7 @@
 			dstPath = include;
 			dstSubfolderSpec = 16;
 			files = (
+				EF7998471E1E6B4D00AF4CE7 /* BViewController.h in CopyFiles */,
 				EF7998071E1E2EB400AF4CE7 /* AdViewController.h in CopyFiles */,
 				EF7997F21E1E2BAB00AF4CE7 /* MyFramework.h in CopyFiles */,
 			);
@@ -37,6 +41,9 @@
 		EF7998021E1E2DD000AF4CE7 /* AdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdViewController.h; sourceTree = "<group>"; };
 		EF7998031E1E2DD000AF4CE7 /* AdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdViewController.m; sourceTree = "<group>"; };
 		EF7998041E1E2DD000AF4CE7 /* AdViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AdViewController.xib; sourceTree = "<group>"; };
+		EF7998421E1E6B2900AF4CE7 /* BViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BViewController.h; sourceTree = "<group>"; };
+		EF7998431E1E6B2900AF4CE7 /* BViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BViewController.m; sourceTree = "<group>"; };
+		EF7998441E1E6B2900AF4CE7 /* BViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +69,9 @@
 			children = (
 				EF7998021E1E2DD000AF4CE7 /* AdViewController.h */,
 				EF7998031E1E2DD000AF4CE7 /* AdViewController.m */,
+				EF7998421E1E6B2900AF4CE7 /* BViewController.h */,
+				EF7998431E1E6B2900AF4CE7 /* BViewController.m */,
+				EF7998441E1E6B2900AF4CE7 /* BViewController.xib */,
 				EF7998041E1E2DD000AF4CE7 /* AdViewController.xib */,
 				EF7997EE1E1E2BAB00AF4CE7 /* MyFramework */,
 				EF7997FD1E1E2D7F00AF4CE7 /* MyFrameworkBundle */,
@@ -177,6 +187,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EF7998061E1E2DED00AF4CE7 /* AdViewController.xib in Resources */,
+				EF7998461E1E6B3600AF4CE7 /* BViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -188,6 +199,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EF7997F11E1E2BAB00AF4CE7 /* MyFramework.m in Sources */,
+				EF7998451E1E6B2900AF4CE7 /* BViewController.m in Sources */,
 				EF7998051E1E2DD000AF4CE7 /* AdViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -363,6 +375,7 @@
 				EF7997F71E1E2BAB00AF4CE7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EF7997FF1E1E2D7F00AF4CE7 /* Build configuration list for PBXNativeTarget "MyFrameworkBundle" */ = {
 			isa = XCConfigurationList;
@@ -371,6 +384,7 @@
 				EF7998011E1E2D7F00AF4CE7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
