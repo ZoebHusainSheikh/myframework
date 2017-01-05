@@ -7,6 +7,7 @@
 //
 
 #import "AdViewController.h"
+#import "BViewController.h"
 
 @interface AdViewController ()
 
@@ -17,11 +18,20 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+    
+    NSLog(@"A");
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+- (IBAction)buttonTapped:(id)sender {
+    NSLog(@"buttonTapped");
+    
+    
+    BViewController *adView = [[BViewController alloc] initWithNibName:@"BViewController" bundle:nil];
+    [self.view addSubview:adView.view];
 }
 
 /*
